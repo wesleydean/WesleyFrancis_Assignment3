@@ -1,0 +1,486 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+}
+
+
+
+/* "Entypo pictograms by Daniel Bruce — www.entypo.com" */
+@font-face {
+	font-family: "Entypo";
+	src: url("../fonts/entypo.eot");
+	src: local("☺"), 
+	url("../fonts/entypo.woff") format("woff"), 
+	url("../fonts/entypo.ttf") format("truetype"), 
+	url("../fonts/entypo.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.entypo-font {
+	font-family: "Entypo";
+	font-size: 30px;
+	float:left;
+	line-height: 100%;
+	padding-right:10px;
+}
+.entypo-social {
+	font-family: "entypo_social";
+	font-size: 30px;
+	line-height: 4px;
+	float:left;
+}
+
+/*FONT STYLES*/
+
+body {
+	background: #48ffaa;
+	font-family: "PT Sans", Arial, sans-serif;
+	line-height: 24px;
+	font-size:16px;
+	letter-spacing: 1px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: 'Roboto', Arial, sans-serif;
+	line-height: 34px;
+	color: #00a8a3;
+	font-weight:300;
+	font-size: 30px;
+	font-style:italic;
+}
+h2 {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight:400;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+h3 {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight:500;
+	font-size: 16px;
+	color:#00a8a3;
+	line-height: 20px;
+}
+
+h4 {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size:15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size:12px;
+	font-weight: 400;
+}
+
+/*CONTAINERS*/
+.big-container {
+	background-color: white;
+	width:1020px;
+	height:1060px;
+	margin: 0 auto;
+}
+.small-container {
+	width:920px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+/*HEADER*/
+header {
+	padding:110px 60px 0 60px;
+	width:1020px;
+	height:360px;
+	background: url("../images/banner.png") no-repeat;
+
+}
+
+#intro {
+	width:890px;
+	height:250px;
+	margin:0 auto;
+}
+#profile-pic {
+	float:left;
+	background: url("../images/profilepic.png" ) no-repeat;
+	width:169px;
+	height:250px;
+}
+#title {
+	width: 220px;
+	padding-top: 15px;
+	float:left;
+	margin-left: 33px;
+}
+
+#quote {
+	margin:0 5px 0 0;
+	float:right;
+	width:430px;
+}
+
+#list-one {
+	list-style-type: none;
+	float:left;
+	display:inline;
+	padding:30px 0 0 15px;
+}
+
+#list-one li span {
+	clear:left;
+	line-height: 5px;
+	padding:10px 10px 0 0;
+}
+
+#list-one li p {
+	padding-left: 20px;
+	letter-spacing: 1.5px;
+}
+
+#list-two {
+	line-height: 25px;
+	list-style-type: none;
+	float:left;
+	padding:0px 40px 0 0;
+}
+#list-two li span {
+	clear:left;
+	line-height: 5px;
+	padding:10px 10px 0 0;
+}
+
+#list-two li p {
+	padding-left: 20px;
+	letter-spacing: 1.5px;
+}
+
+/*SECTIONS*/
+
+section#left-section {
+	float:left;
+}
+section#right-section {
+	float: left;
+}
+
+article {
+	padding-left: 40px;
+	width:430px;
+	margin-bottom:40px;
+}
+
+article#education ul {
+	margin-bottom: 15px;
+}
+
+article#professional-skills ul {
+	padding: 0;
+}
+
+.pro-skills-bar {
+	width:207px;
+	height:11.5px;
+	float:right;
+	margin-top:5px;
+}
+
+#ps-bar {
+	background: url("../images/ps_bar.png") center center no-repeat;
+	/*clear:right;*/
+}
+#ai-bar {
+	background: url("../images/ps_bar.png") center center no-repeat;
+	/*clear:right;*/
+}
+#id-bar {
+	background: url("../images/id_bar.png") center center no-repeat;
+}
+#ae-bar{
+	background: url("../images/ae_bar.png") center center no-repeat;
+}
+#html-bar{
+	background: url("../images/html_bar.png") center center no-repeat;
+}
+#js-bar{
+	background: url("../images/jq_bar.png") center center no-repeat;
+}
+
+article#creative-fields {
+	height:100px;
+}
+
+article#creative-fields ul {
+	padding:0;
+	float:left;
+	padding:0 50px 40px 0;
+
+}
+
+.pers-skills-box {
+	width:190px;
+	height:110px;
+	float:left;
+}
+
+.pers-skills-box h5 {
+	font-size: normal;
+	padding-top:30px;
+	float: left;
+}
+
+.pskills-percentage {
+	font-size:30px;
+	width:110px;
+	height:90px;
+	float: right;
+	padding-right: 20px;
+}
+
+.pskills-percentage p {
+	text-align: center;
+	padding-left: 15px;
+	padding-top:35px;
+	font-size: 25px;
+}
+
+#creativity-skills {
+	background: url("../images/pskills1.png") no-repeat center center;
+}
+
+#organization-skills {
+	background: url("../images/pskills2.png") no-repeat center center;
+}
+
+#teamwork-skills {
+	background: url("../images/pskills3.png") no-repeat center center;
+}
+
+#curiosity-skills {
+	background: url("../images/pskills4.png") no-repeat center center;
+}
+
+
+.line {
+	background-color: black;
+	height:2px;
+	width: 380px;
+	margin-bottom: 14px;
+}
+
+.big-icons {
+	font-family: "Entypo";
+	font-size: 50px;
+	float:left;
+	line-height: 100%;
+	padding-top:0px;
+}
+
+
+footer {
+	background: url("../images/footer_banner.png") center center;
+	width:1020px;
+	height:10px;
+	margin:0 auto;
+	bottom:0;
+}
+
+.hidden-line {
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 700px) and (min-width: 320px) {
+
+/*FONTS*/
+
+body {
+	font-size: 20px;
+}
+ul {
+	padding: 0;
+}
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color:#00a8a3;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+/*CONTAINERS*/
+
+.big-container {
+	display: inline-block;
+	width:100%;
+	height:105%;
+}
+
+/*HEADER*/
+
+header {
+	width:100%;
+	height:300px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#intro {
+	width:auto;
+}
+
+#profile-pic {
+	background-position: center center;
+	width:100%;
+}
+
+#title {
+	width:100%;
+	margin:0 auto;
+	padding-bottom: 20px;
+}
+#title p {
+	font-size: 18px;
+}
+
+#quote {
+	margin:0 auto;
+	padding-bottom:10px;
+	width:auto;
+	font-size: 20px;
+}
+
+
+/*HIDDEN ELEMENTS*/
+
+.hidden-line {
+	background-color:#00a8a3;
+	height:2px;
+	width: auto;
+	margin:14px 0;
+}
+
+#list-one {
+	width: 100%;
+	padding:10px 30px 40px 30px;
+	text-align: center;
+	font-size: 20px;
+	margin:0 auto;
+}
+
+#list-one li {
+	width:auto;
+}
+
+#list-one li span {
+	width:100%;
+	font-size: 50px;
+	padding-bottom:10px;
+}
+
+#list-two {
+	display:none;
+}
+
+/*ARTICLES & SECTIONS*/
+
+.small-container {
+	background-color: white;
+	width:100%;
+	margin:0 auto;
+}
+
+section {
+	width:100%;
+	margin:0 auto;
+}
+
+article {
+	text-align: center;
+	width:100%;
+	margin:0 auto;
+	padding:0 40px;
+	margin-bottom:40px;
+}
+
+article#professional-skills ul {
+	height:300px;
+}
+
+article#creative-fields {
+	height:250px;
+}
+
+article#creative-fields ul {
+	width: 100%;
+	line-height: 36px;
+	padding:0;
+
+}
+
+.line {
+	background-color: #48ffaa;
+	height:3px;
+	width: 100%;
+	margin:0 auto;
+	margin-bottom: 14px;
+}
+
+.big-icons {
+	width:100%;
+	text-align: center;
+	margin:0 auto;
+	font-size: 65px;
+	padding:0;	
+}
+
+.pro-skills-bar {
+	width: 100%;
+	height:20px;
+}
+
+.pers-skills-box {
+	width:90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pers-skills-box h5 {
+	padding:30px 0 0 35px;
+}
+
+.pskills-percentage {
+	width:110px;
+	height:90px;
+	padding-right: 0;
+	float: right;
+}
+
+/*FOOTER*/
+
+footer {
+	width:100%;
+}
